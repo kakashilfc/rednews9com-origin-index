@@ -97,7 +97,7 @@ export const getServerSideProps: GetServerSideProps = async ({
   const data = await getPostAndMorePosts(params?.slug, preview, previewData)
 
 
-	//if (referringURL?.includes('facebook.com')) {
+	/*if (referringURL?.includes('facebook.com')) {
 		return {
 			redirect: {
 				permanent: false,
@@ -105,10 +105,10 @@ export const getServerSideProps: GetServerSideProps = async ({
 				/*destination: `${
 					//domain_url.replace(/(\/graphql)/, '/') + encodeURI(slug  as string)
           domain_url.replace(/(\/animalsgraphql)/, '/') + encodeURI(slug  as string)
-				}`,*/
+				}`,
 			},
 		};
-	//}
+	}*/
   return {
     props: {
       
